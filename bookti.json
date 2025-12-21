@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "dimensions": {
+    "purpose": ["P", "E"],
+    "range": ["F", "C"],
+    "depth": ["L", "D"],
+    "expression": ["R", "A"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "purpose",
+      "text": "책을 고를 때 가장 큰 이유는?",
+      "choices": [
+        { "key": "A", "label": "당장 도움이 될 정보나 해결책", "scores": { "P": 1 } },
+        { "key": "B", "label": "감정적인 공감이나 분위기, 위로", "scores": { "E": 1 } }
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "purpose",
+      "text": "책을 다 읽고 남는 만족감은?",
+      "choices": [
+        { "key": "A", "label": "\"쓸모 있는 걸 배웠다\"", "scores": { "P": 1 } },
+        { "key": "B", "label": "\"기분이나 생각이 달라졌다\"", "scores": { "E": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "purpose",
+      "text": "독서 후 가장 먼저 떠오르는 생각은?",
+      "choices": [
+        { "key": "A", "label": "이 내용을 어디에 써먹을 수 있을까", "scores": { "P": 1 } },
+        { "key": "B", "label": "이 감정이나 장면이 오래 남는다", "scores": { "E": 1 } }
+      ],
+      "tiebreaker": true
+    },
+
+    {
+      "id": 4,
+      "dimension": "range",
+      "text": "독서 취향에 더 가까운 쪽은?",
+      "choices": [
+        { "key": "A", "label": "익숙한 분야, 이미 관심 있는 주제", "scores": { "F": 1 } },
+        { "key": "B", "label": "잘 몰랐던 분야도 호기심 생기면 도전", "scores": { "C": 1 } }
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "range",
+      "text": "서점/앱에서 책을 고를 때 행동은?",
+      "choices": [
+        { "key": "A", "label": "늘 보던 코너부터 본다", "scores": { "F": 1 } },
+        { "key": "B", "label": "신간/추천/트렌드부터 훑는다", "scores": { "C": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "range",
+      "text": "한 달 독서 목록을 보면?",
+      "choices": [
+        { "key": "A", "label": "비슷한 주제나 장르가 반복됨", "scores": { "F": 1 } },
+        { "key": "B", "label": "장르가 꽤 다양하게 섞여 있음", "scores": { "C": 1 } }
+      ],
+      "tiebreaker": true
+    },
+
+    {
+      "id": 7,
+      "dimension": "depth",
+      "text": "책 분량에 대한 생각은?",
+      "choices": [
+        { "key": "A", "label": "가볍고 빨리 읽히는 게 좋다", "scores": { "L": 1 } },
+        { "key": "B", "label": "두꺼워도 내용이 깊으면 괜찮다", "scores": { "D": 1 } }
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "depth",
+      "text": "책을 읽는 속도는?",
+      "choices": [
+        { "key": "A", "label": "핵심 위주로 빠르게", "scores": { "L": 1 } },
+        { "key": "B", "label": "곱씹으며 천천히", "scores": { "D": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "depth",
+      "text": "책을 덮은 후 행동은?",
+      "choices": [
+        { "key": "A", "label": "인상 깊은 부분만 기억하고 넘어간다", "scores": { "L": 1 } },
+        { "key": "B", "label": "내용 전체를 정리하거나 오래 생각한다", "scores": { "D": 1 } }
+      ],
+      "tiebreaker": true
+    },
+
+    {
+      "id": 10,
+      "dimension": "expression",
+      "text": "독서 후 기록 습관은?",
+      "choices": [
+        { "key": "A", "label": "따로 남기지 않는다", "scores": { "R": 1 } },
+        { "key": "B", "label": "짧게라도 리뷰/메모를 남긴다", "scores": { "A": 1 } }
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "expression",
+      "text": "마음에 든 책이 있을 때?",
+      "choices": [
+        { "key": "A", "label": "혼자 만족하고 끝낸다", "scores": { "R": 1 } },
+        { "key": "B", "label": "다른 사람에게 추천하고 싶다", "scores": { "A": 1 } }
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "expression",
+      "text": "독서 기록을 남긴다면 더 가까운 건?",
+      "choices": [
+        { "key": "A", "label": "개인 메모용, 나만 보기", "scores": { "R": 1 } },
+        { "key": "B", "label": "공개 리뷰, 정리 글, 추천 목록", "scores": { "A": 1 } }
+      ],
+      "tiebreaker": true
+    }
+  ],
+  "tiebreak_rules": {
+    "purpose": 3,
+    "range": 6,
+    "depth": 9,
+    "expression": 12
+  }
+}

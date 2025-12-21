@@ -1,0 +1,33 @@
+[
+  {
+    "title": "엄마가 유령이 되었어!",
+    "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=83509745&amp;partner=openAPI&amp;start=api",
+    "author": "노부미 (지은이), 이기웅 (옮긴이)",
+    "pubDate": "2016-05-15",
+    "description": "일본 열도를 웃고 울린 감동의 화제작으로, 2015년 일본 아마존 그림책 1위에 선정되었다. 귀엽고 사랑스러운 표지를 펼치자마자 \"엄마가 자동차에 부딪쳐서 유령이 되었습니다.\" 하고 충격적인 시작을 한다.",
+    "isbn": "8955823509",
+    "isbn13": "9788955823509",
+    "itemId": 83509745,
+    "priceSales": 10800,
+    "priceStandard": 12000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 600,
+    "cover": "https://image.aladin.co.kr/product/8350/97/coversum/8955823509_1.jpg",
+    "categoryId": 35139,
+    "categoryName": "국내도서>유아>그림책>나라별 그림책>일본",
+    "publisher": "길벗어린이",
+    "salesPoint": 37279,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 9,
+    "bestDuration": "종합 100위 2주",
+    "bestRank": 38,
+    "seriesInfo": {
+      "seriesId": 107625,
+      "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=107625&amp;partner=openAPI",
+      "seriesName": "두고두고 보고 싶은 그림책 53"
+    },
+    "subInfo": {}
+  }
+]
